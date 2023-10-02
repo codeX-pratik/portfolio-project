@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.nav-bar  {
+    height: 50px;
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-font {
+    color: white;
+    text-decoration: none;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    padding: 10px;
+}
+
+.border:hover {
+    background-color: rgb(94, 94, 94);
+}
+
+.start-space{
+    margin-left: 15px;
+}
+
+.home-intro{
+    height: 657px;
+    background-size: cover;
+    background-color: rgb(225, 225, 222);
+    display: flex;
+}
+
+.home-welcome{
+    background-color: white;
+    filter: drop-shadow(10px 10px 2rem);
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.home-text {
+    font-weight: bold;
+    margin: 20px;
+    width: 40%;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.line1 , .line2 {
+    font-weight: bold;
+}
+
+.app-link {
+    display: flex;
+    padding-top: 5px;
+
+}
+
+.app-border {
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.app-logo {
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.app-logo:hover {
+    border: 2px solid black;
+}
+
+.my-profile-photo {
+    border-radius: 50%;
+}
+
+.E1 {
+    height: 657px;
+    background-size: cover;
+    background-color: rgb(225, 225, 222);
+    display: flex;
+}
+
+.E2 {
+    background-color: white;
+    filter: drop-shadow(10px 10px 2rem);
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    border-radius: 1rem;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.q-box1 , .q-box2{
+    background-color: rgb(188, 185, 185);
+    border-radius: 1rem;
+    padding: 30px;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.l {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Ex1 {
+    height: 657px;
+    background-size: cover;
+    background-color: rgb(225, 225, 222);
+    display: flex;
+}
+
+.Ex2 {
+    background-color: white;
+    filter: drop-shadow(10px 10px 2rem);
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.Ex3 {
+    background-color: rgb(188, 185, 185);
+    border-radius: 1rem;
+    margin: 20px;
+    padding: 30px;
+}
+
+.Ex3 p {
+    font-weight: bold;
+}
+
+.about-me {
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.about-me-font {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3rem;
+}
+
+.about-me-font:hover {
+    background-color: rgb(188, 185, 185);
+}
